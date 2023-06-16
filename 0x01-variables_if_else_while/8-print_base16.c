@@ -1,20 +1,21 @@
 #include <stdio.h>
 /**
-* main - a program that prints numbers between 0 to 9 and letters a-f.
+* main - a program that prints hexadecima l numbers
+*
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-int num;
-char letter;
-for (num = 0; num < 10; num++)
+int i;
+for (i = 48; i < 58; i++)
 {
-putchar(num);
+putchar(i);
 }
-for (letter = 'a'; letter <= f; letter++)
+for (i = 97; i < 103; i++)
 {
-putchar(letter);
+putchar(i);
 }
 putchar('\n');
 return (0);
 }
+
