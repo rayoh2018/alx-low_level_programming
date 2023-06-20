@@ -1,13 +1,11 @@
 #include <stdio.h>
 
-
 /**
- * main - finds and prints the sum of even values 
- * followed by a new line
- * Return: Always 0 (Success)
+ * calculateSum - Calculates the sum of even Fibonacci values
+ *
+ * Return: The sum of even Fibonacci values
  */
-
-int main(void)
+unsigned long int calculateSum(void)
 {
 	int i;
 	unsigned long int j, k, next, sum;
@@ -27,7 +25,20 @@ int main(void)
 		k = next;
 	}
 
+	return (sum);
+}
+
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	unsigned long int sum = calculateSum();
+
 	printf("%lu\n", sum);
 
 	return (0);
 }
+
