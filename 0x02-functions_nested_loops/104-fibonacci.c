@@ -2,12 +2,12 @@
 
 
 	/**
-	 * main - fibonacci
+	 * main - fibonacci numbers
 	 *
 	 * Purpose - no hardcode
 	 *
-	 * Return:  (Success)
-	 *description - 
+	 * Return:  (Success 0)
+	 * description - the main function prints the first finnobaci numbers.
 	 */
 
 	int main(void)
